@@ -1,0 +1,11 @@
+file:
+  path: /Users/inmetrics/Downloads/Evidencia-GA-RAE-2978.docx
+  chunk: cadastro_livros.csv
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:livrariabatch
+    username: fiap
+    password: fiap
+  batch:
+    initialize-schema: always
